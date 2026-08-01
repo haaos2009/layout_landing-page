@@ -39,19 +39,19 @@
     }
   }
 
-  &--masters &__gallery {
+  &__masters &__gallery {
     @include on-tablet {
       grid-template-columns: 2fr 1fr;
     }
   }
 
-  &--three &__gallery {
+  &__three &__gallery {
     @include on-tablet {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
-  &--disney &__gallery {
+  &__disney &__gallery {
     @include on-tablet {
       grid-template-columns: 1fr 2fr;
     }
