@@ -13,6 +13,15 @@
   border: 1px solid transparent;
   text-transform: uppercase;
   transition: background-color $transition;
+  margin-bottom: 100px;
+
+  @include on-tablet {
+    margin-bottom: 237px;
+  }
+
+  @include on-desktop {
+    margin-bottom: 150px;
+  }
 
   &:hover {
     background-color: #ae1c23;
